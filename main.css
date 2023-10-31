@@ -14,7 +14,7 @@ body {
     display: none; 
 }
 
-/*
+
 #canvas_div {
     background: #202020;
     color: #fdf8dd;
@@ -29,9 +29,9 @@ body {
     text-align: center;
     top: 400px;
 } /*This little loading snippet is so stupid and so easy, but appears to work so well: all I'm doing is putting some text that loads immediately behind the thing that takes a little bit to load, then deleting it */
-/*
+
 #canvas {
     background: 000000;
 }
 
-*/
+
