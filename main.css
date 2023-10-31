@@ -1,0 +1,37 @@
+html { 
+    background: #0b0b0b;
+}
+
+body { 
+    width: 1200px; /* This may be the wrong solution, but it's what I'm using to make sure the canvas is centered. We could also just leave this blank and leave "display" of "canvas_div" on "block" instead of "flex," which would make it more responsive but left-align it.*/
+}
+
+.top {
+    color: #fdf8dd;
+}
+
+#hidden_images {
+    display: none; 
+}
+
+/*
+#canvas_div {
+    background: #202020;
+    color: #fdf8dd;
+    display: flex; 
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+} 
+
+#loading {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 400px;
+} /*This little loading snippet is so stupid and so easy, but appears to work so well: all I'm doing is putting some text that loads immediately behind the thing that takes a little bit to load, then deleting it */
+/*
+#canvas {
+    background: 000000;
+}
+
+*/
